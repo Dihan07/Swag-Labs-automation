@@ -1,6 +1,6 @@
-# Swag Labs Automation
+# Swag Labs UI Automation
 
-Sauce Demo e-commerce website automation testing using Playwright and Page Object Model (POM).
+Swag Labs website UI automation testing using Playwright and Page Object Model (POM).
 
 Project URL: [https://www.saucedemo.com/](https://www.saucedemo.com/)
 
