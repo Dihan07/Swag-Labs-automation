@@ -82,7 +82,7 @@ npm run locked-user
 npm run standard-user
 
 # Run Q3 - Performance Glitch User Test
-npm run glicth-user
+npm run glitch-user
 ```
 ### Run all tests in parallel
 ```bash
