@@ -1,8 +1,52 @@
-
-# Playwright
+# Dependencies
 node_modules/
-/test-results/
-/playwright-report/
+jspm_packages/
+
+# Test Reports & Results
+allure-results/
+allure-report/
+playwright-report/
+test-results/
 /blob-report/
-/playwright/.cache/
-/playwright/.auth/
+playwright/.cache/
+playwright/.auth/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+.vscode-test
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Optional files
+*.tsbuildinfo
+.yarn-integrity
+.tern-port
