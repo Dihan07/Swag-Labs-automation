@@ -48,24 +48,24 @@ npx playwright install
 
 ## Test Scenarios
 
-### 1: Locked Out User Test
+### Test 1: Locked Out User Test
 - Attempts login with `locked_out_user`
 - Verifies the error message for locked accounts
 
-### 2: Standard User Complete Flow
+### Test 2: Standard User Complete Flow
 - Login with `standard_user`
 - Reset application state
-- Add 3 random items to cart
-- Navigate through checkout process
+- Add 3 random items to the cart
+- Navigate through the checkout process
 - Verify product names and total price
 - Complete purchase and verify success message
 - Reset state and logout
 
-### Q3: Performance Glitch User Test (30 marks)
+### Test 3: Performance Glitch User Test.
 - Login with `performance_glitch_user`
 - Reset application state
 - Filter products by name (Z to A)
-- Add first product to cart
+- Add the first product to the cart
 - Complete checkout process
 - Verify product details and price
 - Finish purchase and verify success
@@ -74,16 +74,22 @@ npx playwright install
 ## Running Tests
 
 ### Run individual test scenarios
+
+### Run Q1 - Locked User Test
 ```bash
-# Run Q1 - Locked User Test
 npm run locked-user
+```
 
-# Run Q2 - Standard User Test
+### Run Q2 - Standard User Test
+```bash
 npm run standard-user
+```
 
-# Run Q3 - Performance Glitch User Test
+### Run Q3 - Performance Glitch User Test
+```bash
 npm run glitch-user
 ```
+
 ### Run all tests in parallel
 ```bash
 npm run swagLabs   
@@ -96,7 +102,7 @@ npm run test
 
 ## Generating Reports
 
-### Generate and open Allure report
+### Generate and open the Allure report
 ```bash
 npm run getReport   
 ```
