@@ -1,0 +1,24 @@
+{
+  "name": "swag-labs-automation",
+  "version": "1.0.0",
+  "description": "swag-labs automation using playwright",
+  "main": "index.js",
+  "scripts": {
+    "locked-user": "npx playwright test locked_user.specs.js --headed",
+    "standard-user": "npx playwright test standard_user.specs.js --headed",
+    "glitch-user": "npx playwright test performance_glitch.specs.js --headed",
+    "swagLabs": "npx playwright test --headed",
+    "test": "npx playwright test locked_user.specs.js --headed &&  npx playwright test standard_user.specs.js --headed && npx playwright test performance_glitch.specs.js --headed",
+    "getReport": "allure generate --clean allure-results && allure open"
+  },
+  "keywords": [],
+  "author": "tanveer Kaiser",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.2",
+    "rimraf": "^6.1.0"
+  }
+}
