@@ -75,32 +75,30 @@ npx playwright install
 
 ### Run individual test scenarios
 
-### Run Q1 - Locked User Test
+### Run Test suite 1 - Locked User Test
 ```bash
 npm run locked-user
 ```
 
-### Run Q2 - Standard User Test
+### Run Test suite 2 - Standard User Test
 ```bash
 npm run standard-user
 ```
 
-### Run Q3 - Performance Glitch User Test
+### Run Test suite 3 - Performance Glitch User Test
 ```bash
 npm run glitch-user
 ```
 
-### Run all tests in parallel
+### Run all Test suites in parallel
 ```bash
 npm run swagLabs   
 ```
 
-### Run tests in sequence
+### Run Test suites in sequence
 ```bash
 npm run test    
 ```
-
-## Generating Reports
 
 ### Generate and open the Allure report
 ```bash
