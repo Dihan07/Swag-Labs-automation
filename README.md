@@ -72,9 +72,6 @@ npx playwright install
 - Reset state and logout
 
 ## Running Tests
-
-### Run individual test scenarios
-
 ### Run Test suite 1 - Locked User Test
 ```bash
 npm run locked-user
