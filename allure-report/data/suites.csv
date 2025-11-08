@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","907","Finish the purchase journey and verify the successful order message","chromium","Sat Nov 08 20:53:47 GMT+06:00 2025","passed","Sat Nov 08 20:53:48 GMT+06:00 2025","Performance glitch user Test Suite","performance_glitch.specs.js","",""
-"","928","Finish the purchase journey and verify the successful order message","chromium","Sat Nov 08 20:53:29 GMT+06:00 2025","passed","Sat Nov 08 20:53:30 GMT+06:00 2025","Standard user Test Suite","standard_user.specs.js","",""
-"","1338","Add 3 item to the cart and verify their names and total price","chromium","Sat Nov 08 20:53:26 GMT+06:00 2025","passed","Sat Nov 08 20:53:28 GMT+06:00 2025","Standard user Test Suite","standard_user.specs.js","",""
-"","11284","After Filtering(Z to A)and select the first product verify it's name and price","chromium","Sat Nov 08 20:53:34 GMT+06:00 2025","passed","Sat Nov 08 20:53:45 GMT+06:00 2025","Performance glitch user Test Suite","performance_glitch.specs.js","",""
-"","1479","Error message verification for locked_out_user","chromium","Sat Nov 08 20:53:21 GMT+06:00 2025","passed","Sat Nov 08 20:53:22 GMT+06:00 2025","Locked out user Test Suite","locked_user.specs.js","",""
